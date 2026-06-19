@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(255, 252, 234);
+}
+
+/* COLORS */
+.main-color {
+    color: rgb(255, 105, 0);
+}
+.main-bg {
+    background-color: rgb(255, 105, 0);
+}
+
+.red-color {
+    color: rgb(251, 44, 54);
+}
+
+.blue-color {
+    color: rgb(43, 127, 255);
+}
+
+.green-color {
+    color: rgb(0, 130, 53);
+}
+.yellow-color{
+    color: rgb(208, 135, 0);
+}
+.pink-color{
+    color: rgb(230, 0, 118);
+}
+
+
+.blue-bg {
+    background-color: rgb(219, 234, 254);
+}
+
+.green-bg {
+    background-color: rgb(220, 252, 231);
+}
+.flame-bg{
+    background-color: rgb(255, 237, 212);
+}
+.yellow-bg{
+    background-color: rgb(254, 249, 194);
+}
+.red-bg{
+    background-color: rgb(255, 226, 226);
+}
+.pink-bg{
+    background-color: rgb(252, 231, 243);
+}
+.navbar {
+    box-shadow: rgba(233, 88, 26, 0.2) 0px 1px 1px;
+}
+
+.nav-logo {
+    width: 60px;
+    height: 60px;
+    background: RGB(245, 73, 0);
+    background: linear-gradient(123deg, rgb(233, 88, 26) 22%, rgba(242, 43, 29, 1) 72%);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+
+}
+
+.nav-img {
+    width: 35px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.nav-item:hover a {
+    color: rgb(245, 73, 0);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+    border: 0;
+    box-shadow: none;
+}
+
+.fa-bars:hover {
+    color: rgb(245, 73, 0);
+
+}
+
+/* main section */
+.main-card {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.card-img img {
+    width: 100%;
+    
+}
+
+.card-btns button{
+    background-color: rgba(255, 214, 167, 0.544);
+    color: rgb(245, 73, 0);
+    border: none;
+    width: 35px;
+    height: 35px;
+}
+
+.card-btns button:hover{
+    background-color: rgba(255, 214, 167);
+
+}
+.warning{
+    background-color: rgb(255, 230, 230);
+    border-left: 6px solid rgb(255, 77, 77);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* nav tabs */
+#myTab .nav-link {
+    border: 0;
+    background-color: transparent;
+    color: black;
+}
+
+#myTab .nav-link:hover {
+    border: 0;
+}
+
+#myTab .nav-link.active {
+    color: rgb(245, 73, 0);
+    border-bottom: 2px solid rgb(245, 73, 0);
+
+}
+
+.list-number{
+    width: 25px;
+    height: 25px;
+    margin:0 10px 7px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.ingredients{
+    background-color:rgb(255,250,236) ;
+}
+.instructions,.nutrition{
+    height: 350px;
+    overflow-y: auto;
+}
+
+.instruction-num{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.nutrition-item{
+    background-color: #f5f7f8;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.nutrion-icons{
+    width: 40px;
+    height: 40px;
+}
+
+.tips-item{
+     background-color: oklch(0.987 0.022 95.277);
+     border-left:5px solid orange  ;
+     border-radius:20px 0 0 0 ;
+     -webkit-border-radius:20px 0 0 0 ;
+     -moz-border-radius:20px 0 0 0 ;
+     -ms-border-radius:20px 0 0 0 ;
+     -o-border-radius:20px 0 0 0 ;
+}
+.try-another-btn button{
+    border: none;
+    color: white;
+    padding: .6rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .3s ease;
+    background: linear-gradient(to right, rgb(255,103,0) 30%, rgb(255, 0, 0));
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.try-another-btn button:hover{
+    background: linear-gradient(to right, rgb(234, 95, 2) 30%, rgb(228, 3, 3));
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
